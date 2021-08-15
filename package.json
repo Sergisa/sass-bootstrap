@@ -1,0 +1,19 @@
+{
+  "name": "webpack_bootstrap",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "node-sass index.scss --importer=node_modules/node-sass-tilde-importer --output css",
+    "build-min": "node-sass index.scss --importer=node_modules/node-sass-tilde-importer --output-style compressed css/index.min.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.1.0"
+  },
+  "devDependencies": {
+    "node-sass": "^6.0.1",
+    "node-sass-tilde-importer": "^1.0.2"
+  }
+}
